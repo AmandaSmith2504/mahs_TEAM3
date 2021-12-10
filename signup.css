@@ -1,0 +1,82 @@
+body {
+    background: #fff9c0;
+    font-family: 'Klee One', sans-serif;
+}
+
+.signup-form,
+.signup-form * {
+    box-sizing: border-box;
+    font-family: 'Klee One', sans-serif;
+}
+
+.signup-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.signup-form__logo-container {
+    padding: 15px;
+    background: white;
+}
+
+.signup-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.signup-form__content {
+    padding: 30px;
+    background: rgb(243, 184, 209)
+}
+
+.signup-form__header {
+    font-weight: bolder;
+    margin-bottom: 15px;
+    padding: 10px;
+    color:rgb(47, 73, 43);
+}
+
+.signup-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 118, 178);
+    background: rgb(255, 255, 255);
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.signup-form__input:focus{
+    border-color: #000;
+    font-weight: bold;
+}
+
+.signup-form__input::placeholder {
+    color: #000;
+}
+
+.signup-form__button{
+    padding: 10px;
+    margin-top: 10px;
+    color:#000;
+    font-weight: bolder;
+    background:rgb(156, 248, 255);
+    width: 100%;
+    border: 2px rgb(47, 241, 255);
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form__em {
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+    width: 100%;
+    margin: 0 auto;
+}

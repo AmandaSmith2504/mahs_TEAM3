@@ -1,0 +1,84 @@
+body {
+    background: #fff9c0;
+    font-family: 'Klee One', sans-serif;
+}
+
+.login-form,
+.login-form * {
+    box-sizing: border-box;
+    font-family: 'Klee One', sans-serif;
+}
+
+.login-form {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+.login-form__logo-container {
+    padding: 30px;
+    background: white;
+}
+
+.login-form__logo {
+    display: block;
+    max-width: 125px;
+    margin: 0 auto;
+}
+
+.login-form__content {
+    padding: 30px;
+    background: rgb(255, 176, 209);
+}
+
+.login-form__header {
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    color:rgb(47, 73, 43);
+}
+
+.login-form__input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(221, 118, 178);
+    background: rgb(255, 255, 255);
+    outline: none;
+    transition: border-color 0.5s;
+}
+
+.login-form__input:focus{
+    border-color: #000;
+}
+
+.login-form__input::placeholder {
+    color: #000;
+}
+
+.login-form__button{
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+    background:rgb(156, 248, 255);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form__button2{
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+    background:rgb(156, 248, 255);
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

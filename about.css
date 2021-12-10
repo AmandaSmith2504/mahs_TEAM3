@@ -1,0 +1,95 @@
+body{ 
+    font-family: 'Klee One', sans-serif; 
+    background:#fff9c0;
+} 
+/*====================ABOUT US PAGE==============================*/
+.about-title{ 
+    color: rgb(187, 137, 0); 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: bolder;
+} 
+
+/*======1ST AND 3RD ABOUT SECTION=======*/
+#how-sec{
+    margin-top: 25px;
+
+}
+.text-color{
+    color: rgb(187, 137, 0);
+}
+.watch-img{
+    margin-top:35px;
+}
+.watch-img{
+    animation-name:imgLeft;
+    animation-duration: 3s;
+}
+.about-text{
+    animation-name: textRight;
+    animation-duration: 3s;
+}
+@keyframes imgLeft{
+    0%{
+        transform: translateX(-120px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textRight{
+    0%{
+        transform: translate(30px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+/*======2ND ABOUT SECTION=======*/
+#what-sec{
+    margin-top: 25px;
+
+}
+.text-color{
+    color: rgb(187, 137, 0);
+}
+.wait-img{
+    margin-top:35px;
+}
+.wait-img{
+    animation-name:textRight;
+    animation-duration: 3s;
+}
+.abouttwo-text{
+    animation-name: imgLeft;
+    animation-duration: 3s;
+}
+@keyframes imgLeft{
+    0%{
+        transform: translateX(-120px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes textRight{
+    0%{
+        transform: translate(30px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity:1;
+    }
+}
+
+
+
+/*====================ABOUT US PAGE==============================*/

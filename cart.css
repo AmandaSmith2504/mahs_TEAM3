@@ -1,0 +1,33 @@
+body{ 
+    font-family: 'Klee One', sans-serif; 
+    background:#fff9c0;
+}
+/*------------TITLE------------*/
+.cart-title{ 
+    color: rgb(187, 137, 0); 
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+/*-----------------------------*/
+
+.cart_div{
+    float: right;
+    font-weight: blod;
+    position: relative;
+}
+.cart_div{
+    font-size: 17px;
+    line-height: 14px;
+    background: rgb(255, 255, 255);
+    padding: 2px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: red;
+    width: 23px;
+    height: 22px;
+    text-align: center;
+}
