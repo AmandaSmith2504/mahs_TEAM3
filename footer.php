@@ -14,6 +14,8 @@
             <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
         </div>
 
+        <br>
+
         <ul class="list">
             <li>
                 <a href="index.php">Home</a>

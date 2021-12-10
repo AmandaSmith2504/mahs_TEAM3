@@ -132,7 +132,7 @@
                     <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3">
                                 <div class="card single-item">
                                     <div class="img-container">
-                                        <img style="height:377px; width:360px;" style="relative" src="<?php $sql = "SELECT * FROM products WHERE product_id = '9';";
+                                        <img style="height:350px; width:350px;" style="relative" src="<?php $sql = "SELECT * FROM products WHERE product_id = '9';";
                                                                     $result = mysqli_query($conn, $sql);
                                                                     $resultCheck = mysqli_num_rows($result);
                                                                     if ($resultCheck > 0) {

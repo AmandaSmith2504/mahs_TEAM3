@@ -94,3 +94,8 @@
 
     
 </html>
+
+
+<?php
+    require "footer.php";
+?>

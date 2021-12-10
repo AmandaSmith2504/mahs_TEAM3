@@ -19,7 +19,7 @@ body{
     position: relative; 
     transition-duration: 0.3s; 
     transition-property: transform; 
-    cursor: pointer; 
+    cursor: pointer;
 } 
 .single-item:before{ 
     pointer-events: none; 
